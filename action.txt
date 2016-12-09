@@ -1,0 +1,20 @@
+{  
+   "url":"http://localhost:8080/app/check",
+   "method":"POST",
+   "type":"application/json",
+   "value":100,
+   "request":{  
+      "ab":"sd",
+      "walletId":"sdf435"
+   },
+   "toGenerate":[  
+      {  
+         "name":"walletId",
+		 "pattern": "alfanumeric 40"
+      },
+      {  
+         "name":"walletId2",
+		 "pattern": "chars 40"
+      }
+   ]
+}
